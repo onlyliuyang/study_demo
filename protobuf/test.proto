@@ -1,0 +1,14 @@
+syntax = "proto3"
+
+package protocol;
+
+enum FOO
+{
+    x = 0;
+};
+
+//message是固定关键字，UserInfo是自定义类
+message UserInfo{
+    string message = 1;
+    int32 length = 2;
+}
